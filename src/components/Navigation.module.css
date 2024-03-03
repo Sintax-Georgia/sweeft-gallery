@@ -1,0 +1,27 @@
+.navContainer {
+  display: flex;
+  height: 120px;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer svg {
+  height: 2rem;
+  width: 2rem;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.navLinks a,
+li {
+  text-decoration: none;
+}

@@ -1,0 +1,56 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+.image {
+  width: 30%;
+  height: 20rem;
+  min-width: 15rem;
+  object-fit: cover;
+}
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 3rem;
+  height: 1.5rem;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  outline: 0;
+}
+.historyHeadings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.modalWindow {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 50rem;
+}
+.modalHeading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
